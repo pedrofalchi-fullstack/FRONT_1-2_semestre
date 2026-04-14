@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilo.css"> 
+    <title>Document</title>
+  </head>
+  <body>
+    <header> 
+        <h1> Checkpoint 2</h1>
+    </header>
+
+    <div id="wrapper">
+        <fieldset class="Identificacao">
+            <legend>Identificação</legend>
+            <form name="frmCadastro" method="post">
+            <label for="txtNome">Nome: </label>
+            <input type="text" name="txtNome" id="txtNome" required>
+            <br >
+            <label for="txtRg">Rg: </label>
+            <input type="text" name="txtRg" id="txtRg" maxlength="12" required >
+            <label for="txtCPF">CPF:</label>
+            <input type="text" name="txtCPF" id="txtCPF" maxlength="14" required>
+            <br>
+            <label for="txtDataNasc">Data de Nascimento:</label>
+            <input type="date" name="txtDataNasc" id="txtDataNasc" max="2025-10-16" min="2025-01-03" >
+            <label>Gênero</label>
+            <input type="radio" name="rdoGenero" id="rdoMasc" value="M" ><label for="rdoMasc">Masculino</label>
+            <input type="radio" name="rdoGenero" id="rdoFem" value="F" ><label for="rdoFem">Feminino</label>
+            <input type="radio" name="rdoGenero" id="rdoOutros" value="O" checked><label for="rdoOutros">Outros</label>
+            <br>
+            <label for="pwdSenha">Senha: </label>
+            <input type="password" name="pwdSenha" id="pwdSenha" required>
+            <label for="pwdConSenha">Corfime senha: </label>
+            <input type="password" name="pwdConsenha" id="pwdConSenha" required>
+            <br>
+            <label for="txtEmail">E-Mail:</label>
+            <input type="email" name="txtEmail" id="txtEmail" >
+        </fieldset>
+
+        <fieldset class="fotografia">
+            <legend> Fotografia</legend>
+            <label>Arquivo: </label>
+            <input type="file" name="arquivo" id="arquivo" accept=".png, .jpg, .jpeg" multiple >
+            <br>
+            <input type="submit">
+        </fieldset>
+
+        <fieldset class="Dependentes">
+            <legend>Dependentes</legend>
+            <label>Dependentes: </label>
+            <input type="number" name="txtDependentes" id="txtDependentes" min="0" max="20" value="0" step="1">
+            <br>
+        </fieldset>
+       
+        <fieldset class="Endereco">
+            <legend>Endereço</legend>
+            <label for="txtRua">Rua: </label>
+            <input type="text" name="txtRua" id="txtRua"  required >
+            <br>
+            <label for="txtNumero">Número: </label>
+            <input type="number" name="txtNumero" id="txtNumero"  min="1" max="20" value="0" step="1" required >
+            <br>
+            <label for="txtComple">Complemento: </label>
+            <input type="text" name="txtComple" id="txtComple"  required >
+            <br>
+            <label for="txtBairro">Bairro: </label>
+            <input type="text" name="txtBairro" id="txtBairro"  required >
+            <br>
+            <label for="txtCidade">Cidade: </label>
+            <input type="text" name="txtCidade" id="txtCidade"  required >
+            <br>
+            <label for="selEstado">Estado:</label>
+            <select name="selEstado" id="selEstado" required>
+                <option value="">Selecione</option>
+                <optgroup label="Região Sudeste">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="ES">Espirito Santo</option>
+                </optgroup>
+                <optgroup label="Região Centro-Oeste">
+                <option value="DF">Distrito Federal</option>
+                <option value="GO">Goiás</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                <option value="PE">Pernambuco</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="PR">Paraná</option>
+                </optgroup>
+            </select>
+            <br>  
+        </fieldset>
+        <fieldset class="Diversos">
+            <legend>Diversos</legend>
+            <label for="chkTermos">Área de Interesse</label>
+            <input type="checkbox" name="chkTech" id="chkTech" value="Tech" ><label for="chkTech">Tecnologia</label>
+            <input type="checkbox" name="chkSports" id="chkSports" value="Sports" ><label for="chkSports">Esportes</label>
+            <input type="checkbox" name="chkOther" id="chkOther" value="Other" ><label for="chkOther">Outros</label>
+            <br>
+            <label for="txtCor">Cor Favorita:</label>
+            <input type="color" name="txtCor" id="txtCor">
+            <br>
+        </fieldset>
+        
+        <fieldset class="Mensagem">
+            <legend> Mensagem</legend>
+            <input type="text" name="txtMng" id="txtMng">
+        </fieldset>
+        
+        <input class="Cancelar" type="reset" value="Cancelar">
+        <input class="Enviar" type="submit">
+    </div>
+    <footer>
+        <h2> Matheus Guimarães Rosa RM567912</h2>
+        <h2> Pedro Falchi RM566967</h2>
+        <h2> Manuel Pedro de Gouveia Neto RM567458</h2>
+        <h2> Leandro da Silva Santos RM567370</h2>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<<<<<<< HEAD
+.header-sobre {
+    background: #f8f9fa;
+    padding: 100px 5% 60px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.headline-sobre h2 {
+    font-family: "Lobster", sans-serif;
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.sobre-section {
+    padding: 60px 5%;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.sobre-content {
+    background: #fff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    border: 1px solid #e9ecef;
+}
+
+.sobre-texto h3 {
+    font-size: 24px;
+    color: #077cf0;
+    margin: 40px 0 20px 0;
+    font-weight: 600;
+}
+
+.sobre-texto h3:first-child {
+    margin-top: 0;
+}
+
+.sobre-texto p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #495057;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.sobre-texto ul {
+    margin: 20px 0;
+    padding-left: 30px;
+}
+
+.sobre-texto li {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #495057;
+    margin-bottom: 10px;
+=======
+.header-sobre {
+    background: #f8f9fa;
+    padding: 100px 5% 60px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.headline-sobre h2 {
+    font-family: "Lobster", sans-serif;
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+
+.sobre-section {
+    padding: 60px 5%;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.sobre-content {
+    background: #fff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    border: 1px solid #e9ecef;
+}
+
+.sobre-texto h3 {
+    font-size: 24px;
+    color: #077cf0;
+    margin: 40px 0 20px 0;
+    font-weight: 600;
+}
+
+.sobre-texto h3:first-child {
+    margin-top: 0;
+}
+
+.sobre-texto p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #495057;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.sobre-texto ul {
+    margin: 20px 0;
+    padding-left: 30px;
+}
+
+.sobre-texto li {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #495057;
+    margin-bottom: 10px;
+>>>>>>> ecd6242 (Java Script feito)
+}

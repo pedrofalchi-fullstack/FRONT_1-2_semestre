@@ -1,0 +1,1023 @@
+<<<<<<< HEAD
+/* ========== RESPONSIVIDADE MOBILE ========== */
+/* Mobile: até 768px */
+
+/* ========== MOBILE GERAL (768px para baixo) ========== */
+@media (max-width: 768px) {
+    body {
+        padding-top: 60px;
+    }
+    
+    .navbar {
+        height: 60px;
+        padding: 0 20px;
+        background: #fff;
+    }
+    
+    .logo img {
+        height: 40px;
+    }
+    
+    /* Esconde menu desktop e mostra hamburger */
+    .menu {
+        display: none;
+    }
+    
+    .hamburger {
+        display: flex;
+    }
+    
+    /* ========== HEADER MOBILE CORRIGIDO ========== */
+    .header {
+        padding: 30px 5%;
+        min-height: auto;
+    }
+    
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+    
+    .headline {
+        max-width: 100%;
+        order: 1;
+    }
+    
+    .headline h2 {
+        letter-spacing: 3px !important;
+        font-size: 18px !important;
+    }
+    
+    .headline h2:last-of-type {
+        font-size: 36px !important;
+        margin: 10px 0;
+    }
+    
+    .headline p {
+        font-size: 14px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .banner-container {
+        order: 2;
+        width: 100%;
+    }
+    
+    .banner-image {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .contatic-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    
+    /* ========== SECTIONS MOBILE ========== */
+    section {
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+    
+    section h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    
+    .servicos {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .card {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 0;
+        padding: 20px;
+    }
+    
+    .card img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    /* ========== INTEGRANTES MOBILE ========== */
+    .header-integrantes {
+        padding: 80px 5% 40px;
+        margin-top: 60px;
+    }
+    
+    .headline-integrantes h2 {
+        font-size: 36px;
+    }
+    
+    .headline-integrantes p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    
+    .integrantes-section {
+        padding: 40px 5%;
+    }
+    
+    .integrantes-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-bottom: 40px;
+    }
+    
+    .card-integrante {
+        padding: 20px;
+    }
+    
+    .integrante-img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .card-integrante h3 {
+        font-size: 20px;
+    }
+    
+    .integrante-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn-github, .btn-linkedin {
+        width: 100%;
+        max-width: 200px;
+        text-align: center;
+    }
+    
+    .git-geral {
+        padding: 30px 20px;
+    }
+    
+    .git-geral h3 {
+        font-size: 24px;
+    }
+    
+    .btn-repositorio {
+        padding: 12px 25px;
+        font-size: 15px;
+    }
+    
+    /* ========== FAQ MOBILE ========== */
+    .header-faq {
+        padding: 80px 5% 40px;
+        margin-top: 60px;
+    }
+    
+    .headline-faq h2 {
+        font-size: 36px;
+    }
+    
+    .headline-faq p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    
+    .faq-section {
+        padding: 40px 5%;
+    }
+    
+    .faq-pergunta {
+        padding: 20px;
+    }
+    
+    .faq-pergunta h3 {
+        font-size: 16px;
+    }
+    
+    .faq-icon {
+        font-size: 20px;
+    }
+    
+    .faq-resposta {
+        padding: 0 20px;
+    }
+    
+    .faq-toggle:checked ~ .faq-resposta {
+        padding: 0 20px;
+    }
+    
+    .faq-resposta p {
+        font-size: 14px;
+        padding: 0 0 20px 0;
+    }
+    
+    /* ========== FALE CONOSCO MOBILE ========== */
+    .header-faleconosco {
+        padding: 80px 5% 40px;
+        margin-top: 60px;
+    }
+    
+    .headline-faleconosco h2 {
+        font-size: 36px;
+    }
+    
+    .headline-faleconosco p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    
+    .contato-section {
+        padding: 40px 5%;
+    }
+    
+    .form-container {
+        padding: 30px;
+    }
+    
+    .form-container h3 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 14px;
+        font-size: 15px;
+    }
+    
+    .btn-enviar {
+        padding: 16px 30px;
+        font-size: 16px;
+    }
+    
+    /* ========== SOBRE MOBILE ========== */
+    .header-sobre {
+        padding: 80px 5% 40px;
+        margin-top: 60px;
+    }
+    
+    .headline-sobre h2 {
+        font-size: 36px;
+    }
+    
+    .sobre-section {
+        padding: 40px 5%;
+    }
+    
+    .sobre-content {
+        padding: 30px;
+    }
+    
+    .sobre-texto h3 {
+        font-size: 20px;
+        margin: 30px 0 15px 0;
+    }
+    
+    .sobre-texto p,
+    .sobre-texto li {
+        font-size: 16px;
+    }
+    
+    .sobre-texto ul {
+        padding-left: 20px;
+    }
+    
+    /* ========== FOOTER MOBILE ========== */
+    footer {
+        margin-top: 50px;
+        padding: 30px 20px;
+    }
+    
+    .agencia {
+        font-size: 28px;
+    }
+}
+
+/* ========== MOBILE PEQUENO (480px para baixo) ========== */
+@media (max-width: 480px) {
+    .header {
+        padding: 20px 5%;
+    }
+    
+    .headline h2:last-of-type {
+        font-size: 28px !important;
+    }
+    
+    .headline h2 {
+        letter-spacing: 2px !important;
+        font-size: 16px !important;
+    }
+    
+    .headline p {
+        font-size: 13px;
+        margin: 15px 0;
+    }
+    
+    .banner-image {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    section {
+        margin: 30px auto;
+        padding: 0 15px;
+    }
+    
+    section h2 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    
+    .card {
+        padding: 15px;
+    }
+    
+    .card-text h3,
+    .texto-oculto h3 {
+        font-size: 18px;
+    }
+    
+    .card-text p,
+    .texto-oculto p {
+        font-size: 14px;
+    }
+    
+    .header-integrantes {
+        padding: 60px 5% 30px;
+    }
+    
+    .headline-integrantes h2 {
+        font-size: 28px;
+    }
+    
+    .headline-integrantes p {
+        font-size: 14px;
+    }
+    
+    .integrantes-section {
+        padding: 30px 5%;
+    }
+    
+    .card-integrante {
+        padding: 15px;
+    }
+    
+    .integrante-img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .card-integrante h3 {
+        font-size: 18px;
+    }
+    
+    .card-integrante p {
+        font-size: 14px;
+    }
+    
+    .git-geral {
+        padding: 20px 15px;
+    }
+    
+    .git-geral h3 {
+        font-size: 20px;
+    }
+    
+    .git-geral p {
+        font-size: 14px;
+    }
+    
+    .header-faq {
+        padding: 60px 5% 30px;
+    }
+    
+    .headline-faq h2 {
+        font-size: 28px;
+    }
+    
+    .headline-faq p {
+        font-size: 14px;
+    }
+    
+    .faq-section {
+        padding: 30px 5%;
+    }
+    
+    .faq-pergunta {
+        padding: 15px;
+    }
+    
+    .faq-pergunta h3 {
+        font-size: 15px;
+    }
+    
+    .faq-icon {
+        font-size: 18px;
+    }
+    
+    .faq-resposta {
+        padding: 0 15px;
+    }
+    
+    .faq-toggle:checked ~ .faq-resposta {
+        padding: 0 15px;
+    }
+    
+    .faq-resposta p {
+        font-size: 13px;
+        padding: 0 0 15px 0;
+    }
+    
+    .header-faleconosco {
+        padding: 60px 5% 30px;
+    }
+    
+    .headline-faleconosco h2 {
+        font-size: 28px;
+    }
+    
+    .headline-faleconosco p {
+        font-size: 14px;
+    }
+    
+    .contato-section {
+        padding: 30px 5%;
+    }
+    
+    .form-container {
+        padding: 25px;
+    }
+    
+    .form-container h3 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 12px;
+        font-size: 14px;
+    }
+    
+    .btn-enviar {
+        padding: 14px 25px;
+        font-size: 15px;
+    }
+    
+    .contato-form {
+        gap: 20px;
+    }
+    
+    .header-sobre {
+        padding: 60px 5% 30px;
+    }
+    
+    .headline-sobre h2 {
+        font-size: 28px;
+    }
+    
+    .sobre-section {
+        padding: 30px 5%;
+    }
+    
+    .sobre-content {
+        padding: 20px;
+    }
+    
+    .sobre-texto h3 {
+        font-size: 18px;
+        margin: 25px 0 12px 0;
+    }
+    
+    .sobre-texto p,
+    .sobre-texto li {
+        font-size: 15px;
+    }
+    
+    .sobre-texto ul {
+        padding-left: 15px;
+    }
+    
+    footer {
+        padding: 20px 15px;
+    }
+    
+    .agencia {
+        font-size: 24px;
+    }
+=======
+/* ========== RESPONSIVIDADE MOBILE ========== */
+/* Mobile: até 768px */
+
+/* ========== MOBILE GERAL (768px para baixo) ========== */
+@media (max-width: 768px) {
+    body {
+        padding-top: 60px;
+    }
+    
+    
+    .navbar {
+        height: 60px;
+        padding: 0 20px;
+        background: #fff;
+    }
+    
+    .logo img {
+        height: 40px;
+    }
+    
+    /* Esconde menu desktop e mostra hamburger */
+    .menu {
+        display: none;
+    }
+    
+    #hamburger { 
+    display: flex; 
+    margin: 45px; 
+    }
+    
+    /* ========== HEADER MOBILE CORRIGIDO ========== */
+    .header {
+        padding: 30px 5%;
+        min-height: auto;
+    }
+    
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+    
+    .headline {
+        max-width: 100%;
+        order: 1;
+    }
+    
+    .headline h2 {
+        letter-spacing: 3px !important;
+        font-size: 18px !important;
+    }
+    
+    .headline h2:last-of-type {
+        font-size: 36px !important;
+        margin: 10px 0;
+    }
+    
+    .headline p {
+        font-size: 14px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .banner-container {
+        order: 2;
+        width: 100%;
+    }
+    
+    .banner-image {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .contatic-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    
+    /* ========== SECTIONS MOBILE ========== */
+    section {
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+    
+    section h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    
+    .servicos {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .card {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 0;
+        padding: 20px;
+    }
+    
+    .card img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    /* ========== INTEGRANTES MOBILE ========== */
+    .header-integrantes {
+        padding: 80px 5% 40px;
+        margin-top: 60px;
+    }
+    
+    .headline-integrantes h2 {
+        font-size: 36px;
+    }
+    
+    .headline-integrantes p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    
+    .integrantes-section {
+        padding: 40px 5%;
+    }
+    
+    .integrantes-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-bottom: 40px;
+    }
+    
+    .card-integrante {
+        padding: 20px;
+    }
+    
+    .integrante-img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .card-integrante h3 {
+        font-size: 20px;
+    }
+    
+    .integrante-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn-github, .btn-linkedin {
+        width: 100%;
+        max-width: 200px;
+        text-align: center;
+    }
+    
+    .git-geral {
+        padding: 30px 20px;
+    }
+    
+    .git-geral h3 {
+        font-size: 24px;
+    }
+    
+    .btn-repositorio {
+        padding: 12px 25px;
+        font-size: 15px;
+    }
+    
+    /* ========== FAQ MOBILE ========== */
+    .header-faq {
+        padding: 80px 5% 40px;
+        margin-top: 60px;
+    }
+    
+    .headline-faq h2 {
+        font-size: 36px;
+    }
+    
+    .headline-faq p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    
+    .faq-section {
+        padding: 40px 5%;
+    }
+    
+    .faq-pergunta {
+        padding: 20px;
+    }
+    
+    .faq-pergunta h3 {
+        font-size: 16px;
+    }
+    
+    .faq-icon {
+        font-size: 20px;
+    }
+    
+    .faq-resposta {
+        padding: 0 20px;
+    }
+    
+    .faq-toggle:checked ~ .faq-resposta {
+        padding: 0 20px;
+    }
+    
+    .faq-resposta p {
+        font-size: 14px;
+        padding: 0 0 20px 0;
+    }
+    
+    /* ========== FALE CONOSCO MOBILE ========== */
+    .header-faleconosco {
+        padding: 80px 5% 40px;
+        margin-top: 60px;
+    }
+    
+    .headline-faleconosco h2 {
+        font-size: 36px;
+    }
+    
+    .headline-faleconosco p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    
+    .contato-section {
+        padding: 40px 5%;
+    }
+    
+    .form-container {
+        padding: 30px;
+    }
+    
+    .form-container h3 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 14px;
+        font-size: 15px;
+    }
+    
+    .btn-enviar {
+        padding: 16px 30px;
+        font-size: 16px;
+    }
+    
+    /* ========== SOBRE MOBILE ========== */
+    .header-sobre {
+        padding: 80px 5% 40px;
+        margin-top: 60px;
+    }
+    
+    .headline-sobre h2 {
+        font-size: 36px;
+    }
+    
+    .sobre-section {
+        padding: 40px 5%;
+    }
+    
+    .sobre-content {
+        padding: 30px;
+    }
+    
+    .sobre-texto h3 {
+        font-size: 20px;
+        margin: 30px 0 15px 0;
+    }
+    
+    .sobre-texto p,
+    .sobre-texto li {
+        font-size: 16px;
+    }
+    
+    .sobre-texto ul {
+        padding-left: 20px;
+    }
+    
+    /* ========== FOOTER MOBILE ========== */
+    footer {
+        margin-top: 50px;
+        padding: 30px 20px;
+    }
+    
+    .agencia {
+        font-size: 28px;
+    }
+}
+
+/* ========== MOBILE PEQUENO (480px para baixo) ========== */
+@media (max-width: 480px) {
+    .header {
+        padding: 20px 5%;
+    }
+    
+    .headline h2:last-of-type {
+        font-size: 28px !important;
+    }
+    
+    .headline h2 {
+        letter-spacing: 2px !important;
+        font-size: 16px !important;
+    }
+    
+    .headline p {
+        font-size: 13px;
+        margin: 15px 0;
+    }
+    
+    .banner-image {
+        max-width: 100%;
+        height: auto;
+    }
+    #hamburger{
+        margin: 15px;
+    }
+    
+    section {
+        margin: 30px auto;
+        padding: 0 15px;
+    }
+    
+    section h2 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    
+    .card {
+        padding: 15px;
+    }
+    
+    .card-text h3,
+    .texto-oculto h3 {
+        font-size: 18px;
+    }
+    
+    .card-text p,
+    .texto-oculto p {
+        font-size: 14px;
+    }
+    
+    .header-integrantes {
+        padding: 60px 5% 30px;
+    }
+    
+    .headline-integrantes h2 {
+        font-size: 28px;
+    }
+    
+    .headline-integrantes p {
+        font-size: 14px;
+    }
+    
+    .integrantes-section {
+        padding: 30px 5%;
+    }
+    
+    .card-integrante {
+        padding: 15px;
+    }
+    
+    .integrante-img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .card-integrante h3 {
+        font-size: 18px;
+    }
+    
+    .card-integrante p {
+        font-size: 14px;
+    }
+    
+    .git-geral {
+        padding: 20px 15px;
+    }
+    
+    .git-geral h3 {
+        font-size: 20px;
+    }
+    
+    .git-geral p {
+        font-size: 14px;
+    }
+    
+    .header-faq {
+        padding: 60px 5% 30px;
+    }
+    
+    .headline-faq h2 {
+        font-size: 28px;
+    }
+    
+    .headline-faq p {
+        font-size: 14px;
+    }
+    
+    .faq-section {
+        padding: 30px 5%;
+    }
+    
+    .faq-pergunta {
+        padding: 15px;
+    }
+    
+    .faq-pergunta h3 {
+        font-size: 15px;
+    }
+    
+    .faq-icon {
+        font-size: 18px;
+    }
+    
+    .faq-resposta {
+        padding: 0 15px;
+    }
+    
+    .faq-toggle:checked ~ .faq-resposta {
+        padding: 0 15px;
+    }
+    
+    .faq-resposta p {
+        font-size: 13px;
+        padding: 0 0 15px 0;
+    }
+    
+    .header-faleconosco {
+        padding: 60px 5% 30px;
+    }
+    
+    .headline-faleconosco h2 {
+        font-size: 28px;
+    }
+    
+    .headline-faleconosco p {
+        font-size: 14px;
+    }
+    
+    .contato-section {
+        padding: 30px 5%;
+    }
+    
+    .form-container {
+        padding: 25px;
+    }
+    
+    .form-container h3 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 12px;
+        font-size: 14px;
+    }
+    
+    .btn-enviar {
+        padding: 14px 25px;
+        font-size: 15px;
+    }
+    
+    .contato-form {
+        gap: 20px;
+    }
+    
+    .header-sobre {
+        padding: 60px 5% 30px;
+    }
+    
+    .headline-sobre h2 {
+        font-size: 28px;
+    }
+    
+    .sobre-section {
+        padding: 30px 5%;
+    }
+    
+    .sobre-content {
+        padding: 20px;
+    }
+    
+    .sobre-texto h3 {
+        font-size: 18px;
+        margin: 25px 0 12px 0;
+    }
+    
+    .sobre-texto p,
+    .sobre-texto li {
+        font-size: 15px;
+    }
+    
+    .sobre-texto ul {
+        padding-left: 15px;
+    }
+    
+    footer {
+        padding: 20px 15px;
+    }
+    
+    .agencia {
+        font-size: 24px;
+    }
+>>>>>>> ecd6242 (Java Script feito)
+}

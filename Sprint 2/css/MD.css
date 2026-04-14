@@ -1,0 +1,281 @@
+<<<<<<< HEAD
+/* ========== RESPONSIVIDADE TABLET ========== */
+/* Tablets: 769px a 1024px */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+    /* ========== NAVBAR TABLET ========== */
+    .navbar {
+        padding: 0 3%;
+    }
+    
+    .logo img {
+        height: 45px;
+    }
+    
+    .menu a {
+        font-size: 15px;
+        padding: 8px 12px;
+    }
+    
+    #botao {
+        padding: 8px 16px;
+        font-size: 15px;
+    }
+    
+    /* ========== HEADER TABLET ========== */
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .headline {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .headline h2 {
+        font-size: 24px !important;
+        letter-spacing: 5px !important;
+    }
+    
+    .headline h2:last-of-type {
+        font-size: 50px !important;
+    }
+    
+    .headline p {
+        text-align: center;
+    }
+    
+    .banner-image {
+        max-width: 350px;
+    }
+    
+    /* ========== SECTIONS TABLET ========== */
+    .servicos {
+        gap: 15px;
+    }
+    
+    .card {
+        min-width: 280px;
+        padding: 25px;
+    }
+    
+    section h2 {
+        font-size: 36px;
+    }
+    
+    /* ========== INTEGRANTES TABLET ========== */
+    .headline-integrantes h2 {
+        font-size: 42px;
+    }
+    
+    .integrantes-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+    }
+    
+    .card-integrante {
+        padding: 25px;
+    }
+    
+    .integrante-img {
+        width: 130px;
+        height: 130px;
+    }
+    
+    /* ========== FAQ TABLET ========== */
+    .headline-faq h2 {
+        font-size: 42px;
+    }
+    
+    .faq-pergunta {
+        padding: 20px 25px;
+    }
+    
+    .faq-pergunta h3 {
+        font-size: 18px;
+    }
+    
+    /* ========== FALE CONOSCO TABLET ========== */
+    .headline-faleconosco h2 {
+        font-size: 42px;
+    }
+    
+    .form-container {
+        padding: 40px;
+    }
+    
+    .contato-container {
+        gap: 30px;
+    }
+    
+    /* ========== SOBRE TABLET ========== */
+    .headline-sobre h2 {
+        font-size: 42px;
+    }
+    
+    .sobre-content {
+        padding: 40px;
+    }
+    
+    .sobre-texto h3 {
+        font-size: 22px;
+    }
+    
+    .sobre-texto p,
+    .sobre-texto li {
+        font-size: 17px;
+    }
+    
+    /* ========== FOOTER TABLET ========== */
+    footer {
+        padding: 50px 20px;
+    }
+    
+    .agencia {
+        font-size: 38px;
+    }
+=======
+/* ========== RESPONSIVIDADE TABLET ========== */
+/* Tablets: 769px a 1024px */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+    /* ========== NAVBAR TABLET ========== */
+    .navbar {
+        padding: 0 3%;
+    }
+    
+    
+    .logo img {
+        height: 45px;
+    }
+    
+    .menu a {
+        font-size: 15px;
+        padding: 8px 12px;
+    }
+    
+    #botao {
+        padding: 8px 16px;
+        font-size: 15px;
+    }
+    
+    /* ========== HEADER TABLET ========== */
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .headline {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .headline h2 {
+        font-size: 24px !important;
+        letter-spacing: 5px !important;
+    }
+    
+    .headline h2:last-of-type {
+        font-size: 50px !important;
+    }
+    
+    .headline p {
+        text-align: center;
+    }
+    
+    .banner-image {
+        max-width: 350px;
+    }
+    
+    /* ========== SECTIONS TABLET ========== */
+    .servicos {
+        gap: 15px;
+    }
+    
+    .card {
+        min-width: 280px;
+        padding: 25px;
+    }
+    
+    section h2 {
+        font-size: 36px;
+    }
+    
+    /* ========== INTEGRANTES TABLET ========== */
+    .headline-integrantes h2 {
+        font-size: 42px;
+    }
+    
+    .integrantes-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+    }
+    
+    .card-integrante {
+        padding: 25px;
+    }
+    
+    .integrante-img {
+        width: 130px;
+        height: 130px;
+    }
+    
+    /* ========== FAQ TABLET ========== */
+    .headline-faq h2 {
+        font-size: 42px;
+    }
+    
+    .faq-pergunta {
+        padding: 20px 25px;
+    }
+    
+    .faq-pergunta h3 {
+        font-size: 18px;
+    }
+    
+    /* ========== FALE CONOSCO TABLET ========== */
+    .headline-faleconosco h2 {
+        font-size: 42px;
+    }
+    
+    .form-container {
+        padding: 40px;
+    }
+    
+    .contato-container {
+        gap: 30px;
+    }
+    
+    /* ========== SOBRE TABLET ========== */
+    .headline-sobre h2 {
+        font-size: 42px;
+    }
+    
+    .sobre-content {
+        padding: 40px;
+    }
+    
+    .sobre-texto h3 {
+        font-size: 22px;
+    }
+    
+    .sobre-texto p,
+    .sobre-texto li {
+        font-size: 17px;
+    }
+    
+    /* ========== FOOTER TABLET ========== */
+    footer {
+        padding: 50px 20px;
+    }
+    
+    .agencia {
+        font-size: 38px;
+    }
+>>>>>>> ecd6242 (Java Script feito)
+}
