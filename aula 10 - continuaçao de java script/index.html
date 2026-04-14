@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script >
+
+        function mudar(){
+            var lampada = document.getElementById("lampada")
+            
+            if(lampada.src.match("off")){
+                lampada.src = "imagens/lamp_on.gif";
+            }
+            
+            else{
+                lampada.src = "imagens/lamp_off.gif";
+            } 
+           
+        }
+
+    </script>
+</head>
+<body>
+    <img src="imagens/lamp_off.gif" id="lampada" onclick="mudar()">
+</body>
+</html>

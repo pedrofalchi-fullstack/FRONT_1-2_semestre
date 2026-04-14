@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilo.css"> 
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Trabalhando com Formulários</h1>
+    <form name="frmCadastro" method="post">
+      <label for="txtNome">Nome: </label>
+      <input type="text" name="txtNome" id="txtNome" required>
+      <br >
+      <label for="txtEmail">E-Mail:</label>
+      <input type="email" name="txtEmail" id="txtEmail" >
+      <br />
+      <label for="pwdSenha">Senha: </label>
+      <input type="password" name="pwdSenha" id="pwdSenha" required>
+      <br >
+      <label for="telefone">Telefone: </label>
+      <input type="tel" name="telefone" id="telefone" >
+      <br >
+      <label for="txtCPF">CPF:</label>
+      <input type="text" name="txtCPF" id="txtCPF" maxlength="14" >
+      <br>
+      <label for="txtDataNasc">Data de Nascimento 01:</label>
+      <input type="date" name="txtDataNasc01" id="txtDataNasc01" max="2025-10-16" min="2025-01-03" >
+      <br >
+      <label for="txtDataNasc">Data de Nascimento 02:</label>
+      <input type="datetime-local" name="txtDataNasc02" id="txtDataNasc02" max="2025-10-16" min="2025-01-03" >
+      <br >
+      <label for="txtDataNasc">Horario:</label>
+      <input type="time" name="txtHorario" id="txtHorario" value="21:42">
+      <br>
+      <label>Arquivo: </label>
+      <input type="file" name="arquivo" id="arquivo" accept=".pdf, .doc, .docx, .jpg, .jpeg" multiple >
+      <br>
+      <label>Dependentes: </label>
+      <input type="number" name="txtDependentes" id="txtDependentes" min="0" max="20" value="0" step="1">
+      <br>
+      <label>Gênero</label>
+      <input type="radio" name="rdoGenero" id="rdoMasc" value="M" ><label for="rdoMasc">Masculino</label>
+      <input type="radio" name="rdoGenero" id="rdoFem" value="F" ><label for="rdoFem">Fem</label>
+      <input type="radio" name="rdoGenero" id="rdoOutros" value="O" checked><label for="rdoOutros">Outros</label>
+      <br>
+      <label for="chkTermos">Aceito os termos</label>
+      <input type="checkbox" name="chkTermos" id="chkTermos" value="S" >
+      <br>
+      <label for="chkTermos">Área de Interesse</label>
+      <input type="checkbox" name="chkTeck" id="chkTech" value="Tech" ><label for="chkTech">Tech</label>
+      <input type="checkbox" name="chkGames" id="chkGames" value="Games" ><label for="chkGames">Games</label>
+      <input type="checkbox" name="chkNews" id="chkNews" value="News" ><label for="chkNews">Noticias</label>
+      <br>
+      <label for="selEstado">Estado:</label>
+      <select name="selEstado" id="selEstado" required>
+        <option value="">Selecione</option>
+        <optgroup label="Região Sudeste">
+          <option value="SP">São Paulo</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="ES">Espirito Santo</option>
+        </optgroup>
+        <optgroup label="Região Centro-Oeste">
+          <option value="DF">Distrito Federal</option>
+          <option value="GO">Goiás</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+        </optgroup>
+        <optgroup label="Região Nordeste">
+          <option value="PE">Pernambuco</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+        </optgroup>
+        <optgroup label="Região Sul">
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="PR">Paraná</option>
+        </optgroup>
+      </select>
+      <br>
+      <label for="url">URL</label>
+      <input type="url" name="url" id="url" ><!-- valida apenas o http:// ou https:// -->
+      <br >
+      <input type="image" src="https://www.w3schools.com/images/w3schools_green.jpg" alt="Submit" style="width:26px;height:38px">
+      <br>
+      <label for="txtCor">Cor Favorita:</label>
+      <input type="color" name="txtCor" id="txtCor">
+      <br>
+     
+      <input type="submit">
+ 
+    </form>
+  </body>
+</html>

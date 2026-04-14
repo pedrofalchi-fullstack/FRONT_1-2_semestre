@@ -1,0 +1,11 @@
+@media only screen and ((min-width: 600px) and (max-width: 767.9px)) {
+    body{
+            background: #CB30E6;
+    }
+    .smTitulo{
+            display: block;
+        }
+    .xsTitulo, .mdTitulo, .lgTitulo, .xlTitulo{
+            display: none;
+        }
+}

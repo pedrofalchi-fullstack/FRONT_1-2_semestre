@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 100vw; // VW - Wiew Width
+    height: 100vw;
+    text-align: center;
+}
+
+
+.xsTitulo, .smTitulo , .mdTitulo, .lgTitulo, .xlTitulo{
+    color: #3039E6;
+}
