@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cp4</title>
+    <style>
+    body {
+      font-family: 'Raleway', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+    }
+    .hero-text {
+      font-family: 'Playfair Display', serif;
+    }
+    .card-hover {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    }
+    .gallery-img {
+      transition: filter 0.3s ease;
+    }
+    .gallery-img:hover {
+      filter: brightness(1.1) saturate(1.2);
+    }
+    .category-badge {
+      transition: all 0.3s ease;
+    }
+    .category-badge:hover {
+      transform: scale(1.05);
+    }
+     .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+  </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+  </body>
+</html>
