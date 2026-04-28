@@ -1,0 +1,87 @@
+*{
+    margin: 0 auto;
+}
+header, footer{
+    background-color: #f00;
+    padding: 5px;
+    text-align: center;
+}
+footer{
+    margin-top: 25px;
+    
+    min-height: ;
+}
+#wrapper{
+    margin:15px;
+}
+.Identificacao{
+    float:left;
+    height: 350px;
+    width: 600px;
+    color: #f00;
+    margin: 10px;
+}
+.fotografia{
+    float:left;
+    height: 200px;
+    width: 400px;
+    color: #f00;
+    margin: 10px;
+}
+.Dependentes{
+    float:left;
+    height: 200px;
+    width: 400px;
+    color: #f00;
+    margin: 10px;
+
+}
+.Endereco{
+    color: #f00;
+    margin: 10px;
+}
+.Diversos{
+    color: #f00;
+    margin: 10px;
+}
+.Mensagem{
+    color: #f00;
+    margin: 10px;
+}
+#txtNome{
+    width: 500px;
+    margin-bottom: 30px;
+}
+#txtRg{
+    margin-right:50px;
+}
+#txtCPF{
+    margin-left:10px;
+    margin-bottom: 30px;
+}
+#txtDataNasc{
+    margin-right:30px;
+    margin-bottom: 30px;
+}
+#pwdSenha{
+   margin-right:50px;
+   margin-bottom: 30px;
+}
+#txtEmail{
+   width: 500px;
+}
+#txtRua{
+    width: 500px;
+}
+#txtMng{
+    margin: 10px;
+    height:250px;
+    width: 1500px;
+}
+.Cancelar{
+   background-color: #f00;
+   margin:10px;
+}
+.Enviar{
+    background-color: #21FF00;
+}

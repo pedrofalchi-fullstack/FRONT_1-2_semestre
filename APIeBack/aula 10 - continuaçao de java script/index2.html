@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const hora = new Date();
+
+        fullHora = hora.getHours() + ":" +  hora.getMinutes() + ":" + hora.getSeconds()
+
+        var fullHora2 = hora.toLocaleTimeString();
+        
+        document.write(fullHora)
+        document.write("<br>")
+        document.write(fullHora2)
+        document.write("<br>")
+        
+        
+        function Horario(){
+            const hora = new Date();
+            var fullHora2 = hora.toLocaleTimeString();
+            document.getElementById("sla").innerText = fullHora2;
+        }
+        x = setInterval(Horario, 1000);
+    </script>
+</head>
+<body>
+    <p id="sla" ></p>
+</body>
+</html>

@@ -1,0 +1,113 @@
+.header-faleconosco {
+    background: #f8f9fa;
+    padding: 100px 5% 60px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+.headline-faleconosco h2 {
+    font-family: "Lobster", sans-serif;
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.headline-faleconosco p {
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contato-section {
+    padding: 60px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-container {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    background: #fff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    border: 1px solid #e9ecef;
+    width: 100%;
+    text-align: center;
+}
+
+.form-container h3 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 16px;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.3s ease;
+    background: #fff;
+    width: 100%;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #2c3e50;
+    box-shadow: 0 0 0 3px rgba(44, 62, 80, 0.1);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 140px;
+}
+
+.btn-enviar {
+    background: #077cf0;
+    color: white;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.btn-enviar:hover {
+    background: green;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}

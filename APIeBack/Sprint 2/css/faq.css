@@ -1,0 +1,253 @@
+<<<<<<< HEAD
+.header-faq {
+    background: #f8f9fa;
+    padding: 100px 5% 60px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.headline-faq h2 {
+    font-family: "Lobster", sans-serif;
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.headline-faq p {
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.faq-section {
+    padding: 60px 5%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.faq-container {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    overflow: hidden;
+    border: 1px solid #e9ecef;
+}
+
+.faq-item {
+    border-bottom: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-item:hover {
+    background: #f8f9fa;
+}
+
+.faq-toggle {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.faq-pergunta {
+    padding: 25px 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    margin: 0;
+    background: #fff;
+    position: relative;
+}
+
+.faq-pergunta:hover {
+    background: #077cf0;
+}
+
+.faq-pergunta h3 {
+    font-size: 20px;
+    color: #000;
+    margin: 0;
+    font-weight: 600;
+    text-align: left;
+    flex: 1;
+    padding-right: 20px;
+}
+
+.faq-icon {
+    font-size: 24px;
+    font-weight: 300;
+    color: #6c757d;
+    transition: all 0.3s ease;
+    min-width: 20px;
+    text-align: center;
+}
+
+.faq-resposta {
+    padding: 0 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #f8f9fa;
+}
+
+.faq-resposta p {
+    color: #495057;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 0 25px 0;
+}
+
+.faq-toggle:checked ~ .faq-pergunta {
+    background: #077cf0;
+}
+
+.faq-toggle:checked ~ .faq-pergunta h3 {
+    color: #fff;
+}
+
+.faq-toggle:checked ~ .faq-pergunta .faq-icon {
+    color: #fff;
+    transform: rotate(45deg);
+    font-weight: 500;
+}
+
+.faq-toggle:checked ~ .faq-resposta {
+    max-height: 500px;
+    padding: 0 30px;
+=======
+.header-faq {
+    background: #f8f9fa;
+    padding: 100px 5% 60px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+.headline-faq h2 {
+    font-family: "Lobster", sans-serif;
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.headline-faq p {
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.faq-section {
+    padding: 60px 5%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.faq-container {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    overflow: hidden;
+    border: 1px solid #e9ecef;
+}
+
+.faq-item {
+    border-bottom: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-item:hover {
+    background: #f8f9fa;
+}
+
+.faq-toggle {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.faq-pergunta {
+    padding: 25px 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    margin: 0;
+    background: #fff;
+    position: relative;
+}
+
+.faq-pergunta:hover {
+    background: #077cf0;
+}
+
+.faq-pergunta h3 {
+    font-size: 20px;
+    color: #000;
+    margin: 0;
+    font-weight: 600;
+    text-align: left;
+    flex: 1;
+    padding-right: 20px;
+}
+
+.faq-icon {
+    font-size: 24px;
+    font-weight: 300;
+    color: #6c757d;
+    transition: all 0.3s ease;
+    min-width: 20px;
+    text-align: center;
+}
+
+.faq-resposta {
+    padding: 0 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: #f8f9fa;
+}
+
+.faq-resposta p {
+    color: #495057;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 0 25px 0;
+}
+
+.faq-toggle:checked ~ .faq-pergunta {
+    background: #077cf0;
+}
+
+.faq-toggle:checked ~ .faq-pergunta h3 {
+    color: #fff;
+}
+
+.faq-toggle:checked ~ .faq-pergunta .faq-icon {
+    color: #fff;
+    transform: rotate(45deg);
+    font-weight: 500;
+}
+
+.faq-toggle:checked ~ .faq-resposta {
+    max-height: 500px;
+    padding: 0 30px;
+>>>>>>> ecd6242 (Java Script feito)
+}

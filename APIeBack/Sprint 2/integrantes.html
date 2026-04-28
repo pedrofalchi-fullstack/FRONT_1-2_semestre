@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça os integrantes da StartUpados - time de inovação e tecnologia">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/MD.css">
+    <link rel="stylesheet" href="css/ES.css">
+    <link rel="stylesheet" href="css/LG.css">
+    <link rel="stylesheet" href="css/integrantes.css">
+    <link rel="icon" type="image/png" href="./img/favicon-ok-.png.png">
+    <script src="Script/script.js"></script>
+    <title>Integrantes | StartUpados()</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+            <img src="./img/logo-250x80.png" alt="Logo StartUpados()" href="./index.html">
+            </a>
+        </div>
+
+        <label for="menu-toggle" class="hamburger" aria-label="Abrir menu" onclick="ExibirMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <div class="menu" id="menu">
+            <a href="index.html">Home</a>
+            <a href="nossos-servicos.html">Nossos Serviços</a>
+            <a href="integrantes.html">Integrantes</a>
+            <a href="sobre.html">Sobre nós</a>
+            <a href="faq.html">Perguntas Frequentes</a>
+            <a id="botao" href="fale-conosco.html">Fale conosco</a>
+        </div>
+    </nav>
+
+    <header class="header-integrantes">
+        <div class="headline-integrantes">
+            <h2>Nossa Equipe:</h2>
+            <p>Conheça os talentosos desenvolvedores por trás da StartUpados() !</p>
+        </div>
+    </header>
+
+    <section class="integrantes-section">
+        <div class="integrantes-grid">
+            <div class="card-integrante">
+                <div class="integrante-img">
+                    <img src="img/pedro.jpeg" alt="Foto do Pedro"> 
+                </div>
+                <h3>Pedro Henrique Falchi</h3>
+                <p><strong>RM: 566967</strong></p>
+                <p><strong>Turma: 1TDSPS</strong></p>
+                <div class="integrante-links">
+                    <a href="https://github.com/PedroFalchi" target="_blank" class="btn-github">GitHub</a>
+                    <a href="https://www.linkedin.com/in/pedro-falchi-4ab4b937b/" target="_blank" class="btn-linkedin">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="card-integrante">
+                <div class="integrante-img">
+                    <img src="img/matheus.jpeg" alt="Foto do Matheus">
+                </div>
+                <h3>Matheus Guimarães Rosa</h3>
+                <p><strong>RM: 567912</strong></p>
+                <p><strong>Turma: 1TDSPS</strong></p>
+                <div class="integrante-links">
+                    <a href="https://github.com/mathuesguimaraesrosa" target="_blank" class="btn-github">GitHub</a>
+                    <a href="https://www.linkedin.com/in/matheus-rosa-04522435b" target="_blank" class="btn-linkedin">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="card-integrante">
+                <div class="integrante-img">
+                    <img src="img/leandro.jpeg" alt="Foto do Leandro">
+                </div>
+                <h3>Leandro da Silva Santos</h3>
+                <p><strong>RM: 567370</strong></p>
+                <p><strong>Turma: 1TDSPS</strong></p>
+                <div class="integrante-links">
+                    <a href="https://github.com/Leandro7439" target="_blank" class="btn-github">GitHub</a>
+                    <a href="https://www.linkedin.com/in/leandro-da-silva-santos-272065376/" target="_blank" class="btn-linkedin">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="git-geral">
+            <h3>Repositório do Grupo:</h3>
+            <p>Confira todos os nossos projetos no GitHub 👇</p>
+            <a href="https://github.com/D-odge/front-end" target="_blank" class="btn-repositorio">Acesse o GitHub Geral</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="logo-rodape">
+            <a href="index.html">
+            <img src="./img/logo-250x80.png" alt="Logo StartUpados()">
+            <p style="color:white">Inovação e tecnologia para transformar idéias em realidade💡</p>
+        </div>
+    </footer>
+
+    <script>
+        window.watsonAssistantChatOptions = {
+        integrationID: "ec3f2bf0-2f49-4287-9eb0-e905588cfcf5", 
+        region: "us-south", 
+        serviceInstanceID: "21b08e1d-325b-4f9f-a5fb-fb63dfe63d2c",
+        onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+        });
+    </script>
+</body>
+</html>
